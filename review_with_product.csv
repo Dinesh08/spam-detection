@@ -1,0 +1,14 @@
+user_id,user_name,product_name,company_name,review,launch_date,launch_time,seller,rating
+1,uday,note 8 pro,mi,best phone to buy under 15000,,,cloudtail,4
+1,uday,note 7 pro,mi,"better than realme, vivo.",,,cloudtail,5
+1,uday,powerbank,mi,fast charging available. Easy to use. Best under 1000,,,cloudtail,5
+2,uvi,note 8 pro,mi,best phone. must buy ,,,cloudtail,5
+2,uvi,note 7 pro,mi,fantastic phone. better than realme,,,cloudtail,4
+3,ajay,note 7 pro,mi,"heating problem ,when gaming",,,cloudtail,2
+1,uday,x2,realme,"worst product, seller is fraud",,,ABC,1
+2,uvi,powerbank,mi, Best under 1000. easy use.fast charging,,,cloudtail,4
+4,vinu,note 8 pro,mi,"good overall, but mi ui has many bugs",,,cloudtail,3
+5,lal,note 8 pro,mi,"best in class display and camera, but miui is not optmised and feels laggy",,,cloudtail,3
+6,santy,note 7 pro,mi,build quality is good.display is average and processor heats up on long gaming sessions. not satisfied,,,cloudtail,2
+7,dinesh,7T,oneplus,build quality is good.display is average and processor heats up on long gaming sessions. not satisfied,,,cloudtail,5
+7,dinesh,7T,oneplus,build quality is good.display is average and processor heats up on long gaming sessions. not satisfied,,,ABC,5
