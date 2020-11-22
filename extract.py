@@ -92,15 +92,15 @@ if len(account_list) > 0:
       statuses=str(item.status)
      except:
       statuses=None
-    print("status: ",statuses.encode('utf-8'))
+    print("status: ",statuses)
     print("listed count: ",item.listed_count)
-    print("default_profile: ",str(item.default_profile).encode('utf-8'))
-    print("default_image: ",str(item.default_profile_image).encode('utf-8'))
-    print("has extended profile: ",str(item.has_extended_profile).encode('utf-8'))
+    print("default_profile: ",str(item.default_profile))
+    print("default_image: ",str(item.default_profile_image))
+    print("has extended profile: ",str(item.has_extended_profile))
     print("id :",item.id)
-    print("id_str :",str(item.id_str).encode('utf-8'))
-    print("location :",str(item.location).encode('utf-8'))
-    print("url : ",str(item.url).encode('utf-8'))
+    print("id_str :",str(item.id_str))
+    print("location :",str(item.location))
+    print("url : ",str(item.url))
     #print("followers",item.followers)
     followers=item.followers_count
     following=item.friends_count
@@ -305,18 +305,18 @@ if len(ids) > 0:
     print("lang: ",item.lang)
     if(item.statuses_count!=0):
      try:
-      statuses=str(item.status).encode('utf-8')
+      statuses=str(item.status)
      except:
       statuses=None
     print("status: ",statuses)
     print("listed count: ",item.listed_count)
-    print("default_profile: ",str(item.default_profile).encode('utf-8'))
-    print("default_image: ",str(item.default_profile_image).encode('utf-8'))
-    print("has extended profile: ",str(item.has_extended_profile).encode('utf-8'))
+    print("default_profile: ",str(item.default_profile))
+    print("default_image: ",str(item.default_profile_image))
+    print("has extended profile: ",str(item.has_extended_profile))
     print("id :",item.id)
-    print("id_str :",str(item.id_str).encode('utf-8'))
-    print("location :",str(item.location).encode('utf-8'))
-    print("url : ",str(item.url).encode('utf-8'))
+    print("id_str :",str(item.id_str))
+    print("location :",str(item.location))
+    print("url : ",str(item.url))
 #  print("followers",item.followers)
     followers=item.followers_count
     following=item.friends_count
@@ -326,7 +326,7 @@ if len(ids) > 0:
     delta = datetime.utcnow() - account_created_date
     print(delta)
     account_age_days = delta.days
-    print("Account age (in days): " + str(account_age_days).encode('utf-8'))
+    print("Account age (in days): " + str(account_age_days))
 
     if(item.verified==False):
             verified=0
@@ -335,7 +335,7 @@ if len(ids) > 0:
     print(item.verified)
     followers_data=[]
     #followers_data=pd.Series([item.id,item.id_str,item.screen_name,item.location,item.description,item.url,item.followers_count,item.friends_count,item.listed_count,account_created_date,item.favourites_count,item.verified,item.statuses_count,item.lang,"none",str(item.default_profile),str(item.default_profile_image),str(item.has_extended_profile),item.name])
-    followers_data=[item.id,item.id_str,item.screen_name,item.location,item.description,item.url,item.followers_count,item.friends_count,item.listed_count,account_created_date,item.favourites_count,item.verified,item.statuses_count,item.lang,statuses,str(item.default_profile).encode('utf-8'),str(item.default_profile_image).encode('utf-8'),str(item.has_extended_profile).encode('utf-8'),item.name]
+    followers_data=[item.id,item.id_str,item.screen_name,item.location,item.description,item.url,item.followers_count,item.friends_count,item.listed_count,account_created_date,item.favourites_count,item.verified,item.statuses_count,item.lang,statuses,str(item.default_profile),str(item.default_profile_image),str(item.has_extended_profile),item.name]
     print("followers data is ",followers_data)
     final.append(followers_data)
     #followers_df=pd.concat([followers_data,followers_df],ignore_index=True)
